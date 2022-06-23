@@ -1,0 +1,9 @@
+{
+  ".sf": {
+    "&-flexLayout": {
+      "flexProps": {
+        "flexGrow": 1
+      }
+    }
+  }
+}

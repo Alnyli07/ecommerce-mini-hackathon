@@ -1,0 +1,40 @@
+{
+  ".flBtnItem": {
+    "width": 75,
+    "height": 70,
+    "&-img": {
+      "height": 45,
+      "flexProps": {
+        "flexGrow": null,
+        "positionType": "RELATIVE",
+        "alignSelf": "CENTER"
+      },
+      "top": null,
+      "left": null,
+      "right": null,
+      "bottom": null,
+      "width": 45,
+      "image": "carrot.png",
+      "backgroundColor": "rgba( 228, 243, 234, 1 )",
+      "borderRadius": 13
+    },
+    "&-label1": {
+      "width": 75,
+      "height": 43
+    },
+    "&-lblTitle": {
+      "height": 19,
+      "font": {
+        "size": 13,
+        "style": "Regular"
+      },
+      "textAlignment": "MIDCENTER",
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      }
+    },
+    "flexProps": {
+      "justifyContent": "SPACE_BETWEEN"
+    }
+  }
+}

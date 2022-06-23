@@ -1,0 +1,17 @@
+{
+  ".gvProductItem": {
+    "width": 175,
+    "height": 225,
+    "&-flProductItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "flexProps": {
+      "alignItems": "CENTER"
+    }
+  }
+}

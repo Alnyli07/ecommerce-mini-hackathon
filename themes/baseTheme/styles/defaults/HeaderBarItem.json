@@ -1,0 +1,10 @@
+{
+    ".headerBarItem": {
+        "&-bell": {
+            "image": "bell.png"
+        },
+        "&-basket": {
+            "image": "basket.png"
+        }
+    }
+}

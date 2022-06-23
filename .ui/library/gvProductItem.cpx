@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gvProductItem",
+			"id": "2adb-fef8-a282-6554",
+			"props": {
+				"children": [
+					"3e1e-f4c4-e4aa-0688"
+				],
+				"name": "gvProductItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"left": 224,
+				"top": 211
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProductItem .gvProductItem-flProductItem",
+			"hiddenComponent": false,
+			"id": "3e1e-f4c4-e4aa-0688",
+			"props": {
+				"children": [],
+				"name": "flProductItem",
+				"parent": "2adb-fef8-a282-6554"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flProductItem",
+				"id": "d9ab-f81d-71d3-4182"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

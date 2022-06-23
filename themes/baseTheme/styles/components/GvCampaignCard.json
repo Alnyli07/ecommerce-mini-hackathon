@@ -1,0 +1,18 @@
+{
+    ".gvCampaignCard": {
+        "width": 308,
+        "height": 140,
+        "left": 0,
+        "top": 0,
+        "&-flCampaignCard": {
+            "flexProps": {
+                "positionType": "RELATIVE"
+            },
+            "flex": {
+                "positionType": 0
+            },
+            "left": 0,
+            "top": 0
+        }
+    }
+}

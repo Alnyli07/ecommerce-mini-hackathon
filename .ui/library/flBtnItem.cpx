@@ -1,0 +1,60 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flBtnItem",
+			"hiddenComponent": true,
+			"id": "a406-f2f4-76ff-6050",
+			"props": {
+				"children": [
+					"dc31-383b-94cc-beff",
+					"5510-6a62-2dd2-be32"
+				],
+				"name": "flBtnItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 31,
+				"top": 478
+			}
+		},
+		{
+			"className": ".sf-imageView .flBtnItem-img",
+			"id": "dc31-383b-94cc-beff",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBtn",
+				"parent": "a406-f2f4-76ff-6050"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flBtnItem-lblTitle",
+			"id": "5510-6a62-2dd2-be32",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "a406-f2f4-76ff-6050",
+				"text": "Foods"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"text": "Foods",
+				"top": 0
+			}
+		}
+	]
+}

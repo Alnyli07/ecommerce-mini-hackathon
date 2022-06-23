@@ -1,0 +1,15 @@
+{
+  ".gvCategoryItem": {
+    "width": 75,
+    "height": 70,
+    "&-flBtnItem": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

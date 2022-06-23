@@ -1,0 +1,284 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #page1",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"5763-aa07-ac50-a859",
+					"ce2a-5c20-15c1-f99c"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "PORTRAIT",
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Mega Mall"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Mega Mall"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flTop",
+			"id": "5763-aa07-ac50-a859",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1e44-43ea-c499-cc43",
+					"78af-755c-08d2-be72",
+					"47b5-19dc-16e7-a1d8"
+				],
+				"name": "flTop",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-searchView #page1-searchview1",
+			"id": "1e44-43ea-c499-cc43",
+			"props": {
+				"children": [],
+				"hint": "Search Product Name",
+				"name": "searchView1",
+				"parent": "5763-aa07-ac50-a859"
+			},
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search Product Name"
+			}
+		},
+		{
+			"className": ".sf-gridView #page1-gridView1",
+			"id": "78af-755c-08d2-be72",
+			"props": {
+				"children": [
+					"17e3-0b87-ef3a-e932"
+				],
+				"itemCount": 5,
+				"name": "gridView1",
+				"parent": "5763-aa07-ac50-a859"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gvCampaignCard #page1-gvCampaignCard",
+			"hiddenComponent": false,
+			"id": "17e3-0b87-ef3a-e932",
+			"oldName": "gridViewItem1",
+			"props": {
+				"children": [],
+				"name": "gvCampaignCard",
+				"parent": "78af-755c-08d2-be72"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gvCampaignCard",
+				"id": "9a98-9f1d-f5a7-727f"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flbuttoncategory",
+			"id": "47b5-19dc-16e7-a1d8",
+			"oldName": "flWrapper",
+			"props": {
+				"children": [
+					"e479-d449-0f4d-14f6",
+					"a9f3-7b37-a52a-a594"
+				],
+				"name": "flButtonCategory",
+				"parent": "5763-aa07-ac50-a859"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-lblcategory",
+			"id": "e479-d449-0f4d-14f6",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "47b5-19dc-16e7-a1d8",
+				"text": "Categories"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Categories"
+			}
+		},
+		{
+			"className": ".sf-gridView #page1-gridView2",
+			"id": "a9f3-7b37-a52a-a594",
+			"oldName": "gridView2",
+			"props": {
+				"children": [
+					"ab99-39b3-4b89-afc3"
+				],
+				"itemCount": 5,
+				"name": "gridBtnCategory",
+				"parent": "47b5-19dc-16e7-a1d8"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gvCategoryItem #page1-gvCategoryItem",
+			"hiddenComponent": false,
+			"id": "ab99-39b3-4b89-afc3",
+			"props": {
+				"children": [],
+				"name": "gvCategoryItem",
+				"parent": "a9f3-7b37-a52a-a594"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gvCategoryItem",
+				"id": "30f1-35f8-03dd-0fec"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page1-flproductcategory",
+			"id": "ce2a-5c20-15c1-f99c",
+			"oldName": "flButtonCategory_1",
+			"props": {
+				"children": [
+					"99da-d429-4cc8-a656",
+					"b637-2d27-80c5-4fce",
+					"0fda-7862-fda0-caea"
+				],
+				"name": "flProductCAtegory",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #page1-lblcategory #page1-lblproduct",
+			"id": "99da-d429-4cc8-a656",
+			"oldName": "label1_1",
+			"props": {
+				"children": [],
+				"name": "lblProductHeader",
+				"parent": "ce2a-5c20-15c1-f99c",
+				"text": "Featured Product"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Featured Product"
+			}
+		},
+		{
+			"className": ".sf-label #page1-lblcategory #page1-lblseeall #page1-lblSeeAll",
+			"id": "b637-2d27-80c5-4fce",
+			"oldName": "lblProductHeader_1",
+			"props": {
+				"children": [],
+				"name": "lblSeeAll",
+				"parent": "ce2a-5c20-15c1-f99c",
+				"text": "See All"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "See All"
+			}
+		},
+		{
+			"className": ".sf-gridView #page1-gridView2",
+			"id": "0fda-7862-fda0-caea",
+			"oldName": "gridBtnCategory_1",
+			"props": {
+				"children": [
+					"8330-abc1-a375-5578"
+				],
+				"itemCount": 5,
+				"name": "gridProductCategory",
+				"parent": "ce2a-5c20-15c1-f99c"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gvProductItem #page1-gvProductItem",
+			"hiddenComponent": false,
+			"id": "8330-abc1-a375-5578",
+			"oldName": "gridViewItem1",
+			"props": {
+				"children": [],
+				"name": "gvProductItem",
+				"parent": "0fda-7862-fda0-caea"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gvProductItem",
+				"id": "2adb-fef8-a282-6554"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

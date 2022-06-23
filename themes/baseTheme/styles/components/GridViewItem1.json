@@ -1,0 +1,114 @@
+{
+  ".gridViewItem1": {
+    "width": 294,
+    "height": 140,
+    "&-flexLayout": {
+      "flexProps": {
+        "flexGrow": 6
+      },
+      "height": null
+    },
+    "flexProps": {
+      "flexDirection": "ROW",
+      "alignItems": "STRETCH",
+      "alignSelf": "STRETCH"
+    },
+    "&-inner2": {
+      "flexProps": {
+        "flexGrow": 4
+      },
+      "borderRadius": 13,
+      "backgroundColor": "rgba( 54, 105, 201, 1 )",
+      "&-right": {
+        "backgroundColor": "rgba( 255, 255, 255, 0 )"
+      }
+    },
+    "&-inner1": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "alignSelf": "STRETCH"
+      },
+      "&-right": {
+        "borderRadius": 88,
+        "flexProps": {
+          "flexGrow": 12
+        }
+      }
+    },
+    "&-inner": {
+      "&-absolute": {
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "left": 20,
+        "right": 40,
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "&-flMask": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": null,
+      "borderRadius": 13
+    },
+    "&-imgmask": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": null,
+      "bottom": 0,
+      "top": 0,
+      "left": 104,
+      "image": "youngwoman.png",
+      "imageFillType": "ASPECTFILL",
+      "right": 0
+    },
+    "&-label": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": null,
+      "top": 50,
+      "bottom": 20,
+      "left": 10,
+      "right": 10,
+      "&-center": {
+        "top": 25,
+        "bottom": 53,
+        "right": 23,
+        "left": 20,
+        "font": {
+          "size": 18,
+          "style": "Bold",
+          "bold": true
+        },
+        "maxLines": 2,
+        "textAlignment": "MIDLEFT",
+        "lineSpacing": 10
+      },
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "font": {
+        "family": "DM_Sans",
+        "style": "Regular"
+      },
+      "&-bottom": {
+        "bottom": 30,
+        "left": 20,
+        "top": null,
+        "right": 40,
+        "height": 20,
+        "font": {
+          "style": "Regular",
+          "size": 9
+        }
+      }
+    },
+    "borderRadius": 13
+  }
+}

@@ -1,0 +1,38 @@
+{
+  ".gridViewItem11": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
+  },
+  ".flCampaignCard1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    },
+    "backgroundColor": "rgba( 248, 231, 28, 1 )"
+  },
+  ".flBtnItem1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
+  },
+  ".flProductItem1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
+  },
+  ".library": {
+    "backgroundColor": "rgba( 155, 155, 155, 0.27 )"
+  }
+}

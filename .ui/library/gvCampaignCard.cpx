@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gvCampaignCard",
+			"id": "9a98-9f1d-f5a7-727f",
+			"props": {
+				"children": [
+					"1212-786b-2ded-84d2"
+				],
+				"name": "gvCampaignCard",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"left": 38,
+				"top": 45
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gridViewItem1 .gvCampaignCard-flCampaignCard",
+			"hiddenComponent": false,
+			"id": "1212-786b-2ded-84d2",
+			"props": {
+				"children": [],
+				"name": "flCampaignCard",
+				"parent": "9a98-9f1d-f5a7-727f"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCampaignCard",
+				"id": "6b25-f549-a32a-9adb"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

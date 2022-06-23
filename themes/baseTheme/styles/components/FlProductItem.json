@@ -1,0 +1,24 @@
+{
+  ".flProductItem": {
+    "height": 225,
+    "width": 145,
+    "padding": 15,
+    "&-imageView1": {
+      "width": null,
+      "height": 121,
+      "image": "drill.png",
+      "imageFillType": "STRETCH"
+    },
+    "&-label1": {
+      "width": null,
+      "height": 25,
+      "marginTop": 19,
+      "textAlignment": "MIDCENTER",
+      "font": {
+        "size": 13
+      }
+    },
+    "borderRadius": 13,
+    "backgroundColor": "rgba( 255, 255, 255, 1 )"
+  }
+}

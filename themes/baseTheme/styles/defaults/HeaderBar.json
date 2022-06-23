@@ -1,0 +1,9 @@
+{
+    ".sf": {
+        "&-headerBar": {
+            "titleColor": "rgba( 54, 105, 201, 1 )",
+            "backgroundColor": "rgba( 255, 255, 255, 1 )",
+            "itemColor": "rgba( 0, 0, 0, 1 )"
+        }
+    }
+}
